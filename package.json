@@ -1,0 +1,58 @@
+{
+	"name": "wordifyjs",
+	"version": "1.0.1",
+	"description": "Turn UUIDs to and from human-friendly words",
+	"main": "src/index.js",
+	"typings": "src/index.d.ts",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/havenbarnes/wordifyjs.git"
+	},
+	"keywords": [
+		"ID",
+		"UUID",
+		"GUID",
+		"words"
+	],
+	"author": "Haven Barnes",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/havenbarnes/wordifyjs/issues"
+	},
+	"homepage": "https://github.com/havenbarnes/wordifyjs#readme",
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{js,json,css,md}": [
+			"prettier --write",
+			"git add"
+		]
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.4",
+		"@babel/preset-env": "^7.6.3",
+		"babel-jest": "^24.9.0",
+		"husky": "^3.0.5",
+		"jest": "^24.9.0",
+		"lint-staged": "^9.3.0",
+		"prettier": "^1.18.2"
+	}
+}
