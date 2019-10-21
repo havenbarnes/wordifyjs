@@ -5,6 +5,7 @@
 	"main": "src/index.js",
 	"typings": "src/index.d.ts",
 	"scripts": {
+		"lint": "eslint src/**",
 		"test": "jest"
 	},
 	"repository": {
@@ -49,10 +50,15 @@
 	"devDependencies": {
 		"@babel/core": "^7.6.4",
 		"@babel/preset-env": "^7.6.3",
+		"@typescript-eslint/eslint-plugin": "^2.4.0",
+		"@typescript-eslint/parser": "^2.4.0",
 		"babel-jest": "^24.9.0",
+		"eslint": "^6.5.1",
+		"eslint-config-prettier": "^6.4.0",
 		"husky": "^3.0.5",
 		"jest": "^24.9.0",
 		"lint-staged": "^9.3.0",
-		"prettier": "^1.18.2"
+		"prettier": "^1.18.2",
+		"typescript": "^3.6.4"
 	}
 }
