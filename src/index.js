@@ -1,8 +1,8 @@
-const generateWords = uuid => {
+const generateWords = () => {
 	return 'asdf';
 };
 
-const generateUUID = words => {
+const generateUUID = () => {
 	return 'asdf';
 };
 
