@@ -1,4 +1,7 @@
+import Words from './words';
+
 const generateWords = () => {
+	console.log(Words.size());
 	return 'asdf';
 };
 
