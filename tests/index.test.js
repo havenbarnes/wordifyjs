@@ -1,5 +1,10 @@
-import * as wordify from '../src/index.js/index.js';
+import * as wordify from '../src/index.js';
 
-test('returns string', () => {
-	expect(wordify.generateWords()).toBe('asdf');
+beforeEach(() => {
+	// Set UUID seed
+});
+
+test('test', () => {
+	console.log(wordify.generateNewPair());
+	expect('asdf').toBe('asdf');
 });

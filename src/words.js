@@ -1,3 +1,7 @@
-const words = [];
+import * as words from 'an-array-of-english-words';
 
-export default words;
+const wordForIndex = index => {
+	return words[index];
+};
+
+export { wordForIndex };
