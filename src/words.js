@@ -1,14 +1,7 @@
 import * as words from 'an-array-of-english-words';
 
-const wordForByte = () => {
-	return words[0];
+const wordForIndex = index => {
+	return words[index];
 };
 
-const size = () => {
-	return Object.keys(words).length;
-};
-
-export default {
-	wordForByte,
-	size
-};
+export { wordForIndex };

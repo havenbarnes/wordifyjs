@@ -4,6 +4,7 @@ beforeEach(() => {
 	// Set UUID seed
 });
 
-test('generate words returns string', () => {
-	expect(wordify.generateWords()).toBe('asdf');
+test('test', () => {
+	console.log(wordify.generateNewPair());
+	expect('asdf').toBe('asdf');
 });
