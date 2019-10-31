@@ -4,4 +4,8 @@ const wordForIndex = index => {
 	return words[index];
 };
 
-export { wordForIndex };
+const indexForWord = word => {
+	return Object.keys(words).find(key => words[key] === word);
+};
+
+export { wordForIndex, indexForWord };
