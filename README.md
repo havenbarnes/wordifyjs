@@ -2,6 +2,8 @@
 
 #### A JS library for "humanizing" UUIDs
 
+![badge](https://action-badges.now.sh/JasonEtco/example-repo?action=push-test)
+
 ## Installing
 
 ```bash
