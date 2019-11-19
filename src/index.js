@@ -12,6 +12,9 @@ const getIntegerFromHex = hex => {
 
 const getHexFromInteger = integer => {
 	let hex = Number(integer).toString(16);
+	while (hex.length < 4) {
+		hex = '0' + hex;
+	}
 	return hex;
 };
 
