@@ -19,7 +19,7 @@ Importing wordify:
 import * as wordify from 'wordifyjs';
 ```
 
-WordifyJS exposes a few utility functions for generating and converting UUIDs to and from word combinations.
+WordifyJS exposes a few utility functions for generating and converting UUIDs to and from words.
 
 ```js
 wordify.generateNewPair(); // returns [uuid, word-combination]
